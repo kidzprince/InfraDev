@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vnetName": {
+      "value": "ADO-vNet"
+    },
+    "vnetAddressPrefix": {
+      "value": "10.200.0.0/16"
+    },
+    "subnet1Name": {
+      "value": "ADO-sub-dev"
+    },
+    "subnet1Prefix": {
+      "value": "10.200.0.0/24"
+    },
+    "subnet2Name": {
+      "value": "ADO-sub-qa"
+    },
+    "subnet2Prefix": {
+      "value": "10.200.1.0/24"
+    },
+    "subnet3Name": {
+      "value": "ADO-sub-prod"
+    },
+    "subnet3Prefix": {
+      "value": "10.200.2.0/24"
+    },
+    "location": {
+      "value": "Australia Southeast"
+    }
+  }
+}

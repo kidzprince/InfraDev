@@ -1,0 +1,45 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "virtualMachineName": {
+      "value": "ADOVMDEV1"
+    },
+    "adminUsername": {
+      "value": "aladmin"
+    },
+    "adminPassword": {
+      "value": "42K:c{x&G*mC))e)"
+    },
+    "dnsLabelPrefix": {
+      "value": "adoappdns"
+    },
+    "virtualNetworkResourceGroup": {
+      "value": "AzureDevOpsDeployment-RG"
+    },
+    "virtualNetworkName": {
+      "value": "ADO-vNet"
+    },
+    "subnetName": {
+      "value": "ADO-sub-dev"
+    },
+    "publicIPName": {
+      "value": "ADOVMDEV01-pip"
+    },
+    "availability_set_name": {
+      "value": "ADOVMDEV01-as"
+    },
+    "windowsOSVersion": {
+      "value": "2019-Datacenter"
+    },
+    "location": {
+      "value": "australiasoutheast"
+    },
+    "tagRequestedFor": {
+      "value": "Approver@YourDomain.com"
+    },
+    "tagEnvironment": {
+      "value": "Development"
+    }
+  }
+}
